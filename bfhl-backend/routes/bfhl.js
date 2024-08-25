@@ -31,9 +31,9 @@ router.post('/', (req, res) => {
 
     res.status(200).json({
         is_success: true,
-        user_id: "your_full_name_ddmmyyyy",  // Replace with actual user ID format
-        email: "your_email@domain.com",      // Replace with actual email
-        roll_number: "your_roll_number",     // Replace with actual roll number
+        user_id: "Khaushik_P_14042004",  // Replace with actual user ID format
+        email: "khaushik.p2021@vitstudent.ac.in",      // Replace with actual email
+        roll_number: "21BPS1537",     // Replace with actual roll number
         numbers: numbers,
         alphabets: alphabets,
         highest_lowercase_alphabet: highestLowercaseAlphabet ? [highestLowercaseAlphabet] : []
