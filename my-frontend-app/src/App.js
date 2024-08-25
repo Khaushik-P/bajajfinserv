@@ -8,7 +8,7 @@ function App() {
     const [response, setResponse] = useState(null);
 
     const handleSubmit = (jsonData) => {
-        axios.post('http://localhost:3000/bfhl', jsonData)
+        axios.post('http://172.232.123.84:8082/bfhl', jsonData)
             .then(res => setResponse(res.data))
             .catch(err => console.error(err));
     };
